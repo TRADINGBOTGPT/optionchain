@@ -1,0 +1,17 @@
+# Claude Code local state — may contain credentials or machine-specific paths.
+# The spec-kit skills under .claude/skills/ are intentionally tracked.
+.claude/settings.local.json
+.claude/local/
+
+# claude-squad state (worktrees, tmux session metadata, per-machine config)
+.claude-squad/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS / editor noise
+.DS_Store
+*.swp
